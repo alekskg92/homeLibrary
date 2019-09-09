@@ -1,5 +1,5 @@
 ### Eclipse
-target/
+target
 .settings/
 .classpath
 .project
