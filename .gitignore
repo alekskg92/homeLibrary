@@ -11,3 +11,4 @@ bin/
 *.iml
 .idea
 *.jar
+workspace.xml
