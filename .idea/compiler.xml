@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="homeLibrary-service" />
+        <module name="homeLibrary-dao" />
+        <module name="homeLibrary-mvc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="homeLibrary" target="1.8" />
+      <module name="homeLibrary-dao" target="1.8" />
+      <module name="homeLibrary-mvc" target="1.8" />
+      <module name="homeLibrary-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="homeLibrary-dao" options="-parameters" />
+      <module name="homeLibrary-mvc" options="-parameters" />
+      <module name="homeLibrary-service" options="-parameters" />
+    </option>
+  </component>
+</project>
