@@ -1,5 +1,5 @@
 ### Eclipse
-target
+target/
 .settings/
 .classpath
 .project
@@ -9,5 +9,9 @@ bin/
 
 ### IntelliJ IDEA
 *.iml
-.idea
+.idea/
 *.jar
+workspace.xml
+*.lst
+*.war
+*.imi

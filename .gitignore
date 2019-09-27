@@ -9,7 +9,7 @@ bin/
 
 ### IntelliJ IDEA
 *.iml
-*.idea
+.idea/
 *.jar
 workspace.xml
 *.lst
