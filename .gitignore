@@ -8,10 +8,10 @@ target/
 bin/
 
 ### IntelliJ IDEA
-.iml
-.idea
-.jar
+*.iml
+*.idea
+*.jar
 workspace.xml
-.lst
-.war
-.imi
+*.lst
+*.war
+*.imi
